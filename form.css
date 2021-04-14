@@ -1,0 +1,31 @@
+body{
+    margin-left: 0px;
+    background-color: #2bfff4;
+}
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+h1{ font-size: 3em;
+    font-family:cursive;
+    text-align: center;
+    width: 40%;
+    margin-bottom: 40px;
+    border-bottom: 2px solid purple;
+    border-right: 2px solid purple;
+    background-color:#fae6f9;
+    box-shadow: 4px 4px 5px #c7c7c7;
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+    transition: all 1s;
+}
+
+img:hover{
+    /* transform: scale(1.6); */
+    transform: rotate(10deg);
+}
